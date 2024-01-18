@@ -3,15 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 
 
 import Header from '../../components/Header';
+import Balance from '../../components/Balance';
 
 export default function App() {
   return (
     <View style={styles.container}>
-        <Header/>
-        <Text>Open ups App.js to start working on your app!</Text>
-
-
-        <StatusBar style="auto" />
+        <Header name="Gustavo S.Campos"/>
+        <Balance/>
     </View>
   );
 }
@@ -19,8 +17,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#FFF',
   },
 });
